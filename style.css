@@ -1,0 +1,258 @@
+/*CSS DE TOUTES LES AUTRES PAGES*/
+
+body{
+    background-color: rgb(64, 64, 66);
+}
+.top{
+    background-color: rgb(36, 35, 35);
+    display: block;
+    margin-block-start: -9.5%;
+}
+
+.contenant {
+    position: relative;
+    margin-block-start: 10%;
+}
+  
+.texte_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(100, 37, 201);
+    font-size: 8em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+}
+@media screen and (min-width: 1101px) {
+    div.texte_center {
+      font-size: 8em;
+    }
+  }
+  
+@media screen and (max-width: 1100px) {
+    div.texte_center {
+      font-size: 3.5em;
+    }
+}
+.image_responsive {
+    max-width: 15%;
+    height: auto;
+}
+.main{
+    text-align: center;
+    font-size: 2.8em;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(100, 37, 201);
+}
+.topR{
+    background-color: rgb(36, 35, 35);
+    display: block;
+    margin-block-start: -9.5%;
+}
+.contenantR {
+    position: relative;
+    margin-block-start: 10%;
+    text-align: right;
+}
+.texte_centerR {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(100, 37, 201);
+    font-size: 8em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+}
+@media screen and (min-width: 601px) {
+    div.texte_centerR {
+      font-size: 8em;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    div.texte_centerR {
+      font-size: 5em;
+    }
+}
+.mainR{
+    font-size: 1.5em;
+}
+.image_responsiveR {
+    max-width: 80%;
+    height: auto;
+    text-align: center;
+    margin:auto;
+    display: flex;
+}
+.image_responsiveF {
+    text-align: center;
+    margin:auto;
+    display: flex; 
+    width: 854px;
+    height: 480px;
+}
+.back{
+    text-align: left;
+}
+@media (max-width: 1000px) {
+    .image_responsiveF {
+        text-align: center;
+        margin:auto;
+        display: flex;
+        width: 560px;
+        height: 315px;
+    }
+}
+
+/*CSS DU CV*/
+
+.coord {
+    background-color:rgb(100, 37, 201);
+   color:rgb(0, 0, 0);
+   padding:30px;
+   text-align: left;
+   float : right;
+   font-size : 20px;
+   white-space: pre-wrap;
+}
+.nom {
+   color:rgb(0, 0, 0);
+   padding:30px;
+   text-align: left;
+   float : left;
+   font-size : 40px;
+   white-space: pre-wrap;
+}
+.prof {
+   color:rgb(0, 0, 0);
+   padding:30px;
+   text-align: left;
+   float : bottom;
+   font-size : 15px;
+}
+.profright {
+   color:rgb(0, 0, 0);
+   text-align: left;
+   float : right;
+   font-size : 15px;
+   position: absolute;
+   margin: -105px 400px;
+}
+.profright2 {
+   color:rgb(0, 0, 0);
+   text-align: left;
+   float : right;
+   font-size : 15px;
+   position: absolute;
+   margin: 40px 400px;
+}
+.prof1 {
+   color:rgb(0, 0, 0);
+   padding:30px;
+   text-align: left;
+   float : bottom;
+   font-size : 15px;
+   margin: 0px -30px;
+}
+.margin {
+   margin: 0px 30px;
+}
+.info {
+   color:rgb(0, 0, 0);
+   padding:130px;
+   text-align: left;
+   float : left;
+   margin: 0px -15px;
+}
+#cercle {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background: rgb(100, 37, 201);
+    margin: -20px -35px;
+}
+#rectangle{
+    width:170px;
+    height:10px;
+    background:rgb(100, 37, 201);
+    margin: -10px 100px;
+    font-size : 10px;
+    text-align: center;
+}
+#rectangle2{
+    width:120px;
+    height:10px;
+    background:rgb(100, 37, 201);
+    margin: -10px 100px;
+    font-size : 10px;
+    text-align: center;
+}
+
+/*CSS DU FORMULAIRE*/ 
+
+div.style1 {
+    background-color:rgb(0, 174, 255);
+   color:rgb(0, 0, 0);
+   padding:20px;
+   text-align: center;
+}
+div.style2 {
+    background-color:rgb(255, 196, 0);
+   color:rgb(0, 0, 0);
+   padding:411px;
+   text-align: center;
+}
+div.style3 {
+    background-color:rgb(0, 255, 128);
+   color:rgb(0, 0, 0);
+   padding:20px;
+   text-align: center;
+}
+div.style4 {
+    background-color:rgb(255, 0, 170);
+   color:rgb(0, 0, 0);
+   text-align: center;
+   float:left;
+   width:150px;
+   height:838px;
+   line-height: 52.5em;
+}
+div.style5 {
+    background-color:rgb(61, 114, 54);
+   color:rgb(0, 0, 0);
+   text-align: center;
+   float:left;
+   line-height: 26.25em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width:150px;
+}
+div.style6 {
+    background-color:rgb(136, 78, 131);
+   color:rgb(0, 0, 0);
+   text-align: center;
+   float:left;
+   width:150px;
+}
+div.style7 {
+    background-color:rgb(255, 0, 0);
+   color:rgb(0, 0, 0);
+   text-align: center;
+   float:right;
+   width:150px;
+   height:150PX;
+   line-height: 10em;
+}
+
+div.styleform{
+    border-width : 1px;
+    border-style : solid;
+    border-color :rgb(0, 0, 0);
+    padding:5px;
+    text-align: center;
+}
